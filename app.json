@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "cortico",
+    "slug": "cortico",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "cortico"
+}
