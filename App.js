@@ -1,20 +1,11 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-import BottomSheet from './src/screens/BottomSheet';
+import HomeScreen from './src/screens/HomeScreen';
+import TestScreen from './src/screens/TestScreen';
 
 export default function App() {
   return (
-      <BottomSheet/>
-
+      <HomeScreen/>
   );
 } 
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+
